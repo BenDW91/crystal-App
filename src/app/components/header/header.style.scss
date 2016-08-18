@@ -1,0 +1,14 @@
+.crystal-header {
+  background: rgb(199, 199, 199);
+  height: 58px;
+  text-align: center;
+
+  .logo {
+    height: 70%;
+    margin: 2%;
+  }
+
+  &.header-transparent {
+    background: transparent;
+  }
+}

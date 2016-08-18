@@ -1,0 +1,39 @@
+body {
+  font-family: "Helvetica Neue Light", "sans serif";
+}
+
+ion-view.pane {
+  background-color: rgb(225, 225, 225);
+}
+
+.btn {
+  font-family: "AmplitudeComp", "sans serif";
+}
+
+ion-view {
+  display: flex;
+  flex-direction: column;
+
+  .crystal-header, .navigation-bar {
+    flex-grow: 0;
+  }
+
+  .content {
+    padding: 10% 12%;
+    flex-grow: 1;
+    overflow: scroll;
+    margin-bottom: 0;
+  }
+}
+
+
+@font-face {
+  font-family: AmplitudeComp;
+  font-weight: bold;
+  src: url("./lib/ionic/fonts/AmplitudeCond-Bold.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: AmplitudeComp;
+  src: url("./lib/ionic/fonts/AmplitudeComp-Regular.ttf") format('truetype');
+}

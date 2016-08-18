@@ -1,0 +1,11 @@
+<ion-view title="concepts" class="concepts">
+  <crystal-header type="transparent"></crystal-header>
+
+  <div class="content">
+    <div class="concept" ng-repeat="concept in concepts" ui-sref="concept({conceptId: concept.id})">
+      <img ng-src="data:image/png;base64,{{concept.image}}"/>
+    </div>
+  </div>
+
+  <crystal-nav-bar></crystal-nav-bar>
+</ion-view>

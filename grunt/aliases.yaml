@@ -1,0 +1,10 @@
+build:
+  - 'clean:initialCleanup'
+  - 'sass'
+  - 'cssmin'
+  - 'html2js'
+  - 'copy:dist'
+  - 'uglify'
+  - 'clean:finalCleanup'
+  - 'copy:lib'
+  - 'htmlbuild'
